@@ -16,7 +16,17 @@
       [fillColor]="color">
   </agm-circle>
 
+
   <agm-marker [latitude]="lat" [longitude]="lng" [iconUrl]="icon">
+  </agm-marker>
+
+  <agm-marker [latitude]="lat2" [longitude]="lng2" [iconUrl]="icon2">
+  </agm-marker>
+
+  <agm-marker [latitude]="lat3" [longitude]="lng3" [iconUrl]="icon3">
+  </agm-marker>
+
+  <agm-marker [latitude]="lat4" [longitude]="lng4" [iconUrl]="icon4">
   </agm-marker>
 
   <agm-polygon [paths]="triangle" [fillColor]="'red'">
@@ -29,6 +39,6 @@
 <button (click)="onClickRed()"> cerchio rosso </button>
 <button (click)="onClickBlu()"> cerchio blu </button>
 <button (click)="onClickVerde()"> cerchio verde </button>
-<button (click)="onClickRYellow()"> rettangolo rosso </button>
+<button (click)="onClickRYellow()"> rettangolo giallo </button>
 <button (click)="onClickRBlu()"> rettangolo blu </button>
 <button (click)="onClickRVerde()"> rettangolo verde </button>

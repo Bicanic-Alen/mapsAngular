@@ -15,6 +15,15 @@ export class AppComponent {
   lat2:number = 45.48186898;
   lng2:number = 9.17265789;
 
+  lat3:number = 45.487215;
+  lng3:number = 9.205372;
+
+  lat4:number = 45.489826;
+  lng4:number = 9.127523;
+
+
+
+
   color:string;
   colorR:string;
   constructor(){}
@@ -51,6 +60,30 @@ export class AppComponent {
       height: 60
     }
   };
+
+  icon2 = {
+    url:'/assets/img/31_104880.ico',
+    scaledSize: {
+      width: 60,
+      height: 60
+    }
+  }
+   icon3 = {
+    url:'/assets/img/SubwayTrain_Green_icon-icons.com_54890.ico',
+    scaledSize: {
+      width: 60,
+      height: 60
+    }
+  }
+   icon4 = {
+    url:'/assets/img/bus_icon-icons.com_76529.ico',
+    scaledSize: {
+      width: 60,
+      height: 60
+    }
+  }
+
+
 
    triangle: Array<Point> =
   [
